@@ -1,0 +1,12 @@
+{
+  "valorant": {
+    "id": "valorant",
+    "name": "Valorant",
+    "description": "A 5v5 tactical shooter by Riot Games where players complete objectives and eliminate opponents."
+  },
+  "overwatch": {
+    "id": "overwatch",
+    "name": "Overwatch",
+    "description": "A team-based hero shooter by Blizzard Entertainment featuring diverse characters and objective-based gameplay."
+  }
+}

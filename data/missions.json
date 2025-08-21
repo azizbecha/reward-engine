@@ -1,0 +1,44 @@
+{
+  "valorant_m1": {
+    "id": "valorant_m1",
+    "gameId": "valorant",
+    "name": "Sharp Shooter",
+    "requirements": [{ "type": "xp", "value": 10 }],
+    "rewards": [{ "type": "coins", "value": 100 }]
+  },
+  "valorant_m2": {
+    "id": "valorant_m2",
+    "gameId": "valorant",
+    "name": "Clutch Master",
+    "requirements": [{ "type": "xp", "value": 300 }],
+    "rewards": [{ "type": "xp", "value": 500 }]
+  },
+  "valorant_m3": {
+    "id": "valorant_m3",
+    "gameId": "valorant",
+    "name": "Ultimate User",
+    "requirements": [{ "type": "level", "value": 500 }],
+    "rewards": [{ "type": "item", "value": 1 }]
+  },
+  "overwatch_m1": {
+    "id": "overwatch_m1",
+    "gameId": "overwatch",
+    "name": "Healing Hands",
+    "requirements": [{ "type": "xp", "value": 500 }],
+    "rewards": [{ "type": "coins", "value": 150 }]
+  },
+  "overwatch_m2": {
+    "id": "overwatch_m2",
+    "gameId": "overwatch",
+    "name": "Tank Buster",
+    "requirements": [{ "type": "xp", "value": 20 }],
+    "rewards": [{ "type": "xp", "value": 750 }]
+  },
+  "overwatch_m3": {
+    "id": "overwatch_m3",
+    "gameId": "overwatch",
+    "name": "Objective Player",
+    "requirements": [{ "type": "playtime", "value": 300 }],
+    "rewards": [{ "type": "item", "value": 1 }]
+  }
+}

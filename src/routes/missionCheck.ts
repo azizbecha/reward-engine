@@ -1,6 +1,6 @@
 import { Hono } from "hono";
-import { fetchResource, validatePlayer } from "../../utils/index.js";
-import type { Game, Mission, Player } from "../../types/index.js";
+import { fetchResource, validatePlayer } from "@/utils";
+import type { Game, Mission, Player } from "@/types";
 
 const app = new Hono();
 

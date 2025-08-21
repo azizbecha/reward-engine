@@ -1,10 +1,10 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 
-import gamesRoute from "./routes/games.js";
-import playersRoute from "./routes/players.js";
-import missionsRoute from "./routes/missions.js";
-import missionCheckRoute from "./routes/missionCheck.js";
+import gamesRoute from "@/src/routes/games";
+import playersRoute from "@/src/routes/players";
+import missionsRoute from "@/src/routes/missions";
+import missionCheckRoute from "@/src//routes/missionCheck";
 
 const app = new Hono()
   .get("/", (c) => {

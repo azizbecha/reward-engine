@@ -1,4 +1,4 @@
-import { BASE_URL } from "../constants/index.js";
+import { BASE_URL } from "@/constants";
 import type {
   Mission,
   Player,

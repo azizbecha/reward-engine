@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import missions from "../../data/missions.json" with { type: "json" };
+import missions from "@/data/missions.json";
 
 const missionsApp = new Hono()
   .get("/", (c) => {

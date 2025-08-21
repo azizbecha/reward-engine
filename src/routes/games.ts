@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import games from "../../data/games.json" with { type: "json" };
+import games from "@/data/games.json";
 
 const gamesApp = new Hono()
   .get("/", (c) => {
